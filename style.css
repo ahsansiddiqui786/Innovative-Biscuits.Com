@@ -1,0 +1,16 @@
+:root{
+--primary-color:#396191;
+}
+
+
+.navcontainer-fluid{
+    border:none;
+    height:100px;
+    background-color:var(--primary-color);
+}
+.Navlogo{
+margin-top: 12px;
+margin-left:100px;
+    width: 200px;
+    height: 80px;
+}
