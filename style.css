@@ -3,12 +3,16 @@
     --blue-color: #293F8C;
     --blue-colortwo: #2F80E5;
     --blue-colorthree:#2E3192;
+    --blue-colorfour:#3553bb;
+    --blue-colorfive:#2563AE;
     --info-color:#45C0F2;
+    --pink-color:#FF98B6;
     --Default-color:#FFFFFF;
     --warning: #E96403;
     --background-color: rgb(248 231 198);
     --Danger-Color:#E52129;
     --Danger-colortwo:#940E15;
+    --maroon-color:#8F1A43;
 
 }
 
@@ -335,7 +339,6 @@ margin-left: 600px;
 .digestive-para{
     color:var(--Default-color);
     font-size:23px;
-    font-family: sans-serif;
     text-align: center;
     font-weight:500;
 }
@@ -357,7 +360,6 @@ height:800px;
 .Butter-Crunch-para{
  color:var(--Default-color); 
  font-size:23px;
- font-family: sans-serif;
  text-align: center;
  font-weight:500; 
 }
@@ -376,7 +378,6 @@ height:700px;
 .jumbo-para{
 color:var(--blue-colorthree);
 font-size: 20px;
-font-family:sans-serif;
 text-align: center;
 font-weight: bold;
 margin-top:20px;
@@ -388,4 +389,92 @@ height:320px;
 display: block;
 margin-right:auto;
 margin-left: auto;
+}
+.Olys-container{
+    background-color:var(--blue-colorfour);
+    height:400px;
+}
+.olys-image{
+    width:400px;
+    height:300px;
+    float: right;
+    margin-top:60px;
+}
+.olys-logo{
+    margin-top:80px;
+    margin-left:200px;
+}
+.olyspara{
+    color:var(--Default-color);
+    font-size: 18px;
+    margin-top:30px;
+    margin-left:30px;
+}
+.crust-container{
+    width:100%;
+    height:860px;
+    background-color:var(--pink-color);
+}
+.crust-logo{
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.crustpara{
+    color:var(--blue-colorthree);
+    font-size: 23px;
+    font-weight:500;
+    text-align:center;
+}
+.crust-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:1300px;
+}
+.toogud-container{
+    width:100%;
+    height:950px;
+    background-color:var(--maroon-color);
+}
+.toogud-logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.toogudpara{
+color:var(--Default-color);
+font-size: 22px;
+font-weight: 500;
+text-align: center;
+}
+.toogud-image{
+    width:1400px;
+    height: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contactone-container{
+background-color: var(--blue-colorfive);
+width: 100%;
+height:500px;
+}
+.contactone-head{
+    color:var(--Default-color);
+    font-size:80px;
+    font-family:Myfont;
+    margin-left:80px;
+}
+.Data{
+   color: var(--Default-color);
+   border: none;
+   border-radius:5px;
+    width:480px;
+    height: 40px;
+    margin-left:80px;
+}
+.comment{
+    margin-left:75px;
+    border-radius: 5px;
 }
