@@ -1,16 +1,391 @@
-:root{
---primary-color:#396191;
+:root {
+    --primary-color: #396191;
+    --blue-color: #293F8C;
+    --blue-colortwo: #2F80E5;
+    --blue-colorthree:#2E3192;
+    --info-color:#45C0F2;
+    --Default-color:#FFFFFF;
+    --warning: #E96403;
+    --background-color: rgb(248 231 198);
+    --Danger-Color:#E52129;
+    --Danger-colortwo:#940E15;
+
 }
 
-
-.navcontainer-fluid{
-    border:none;
-    height:100px;
-    background-color:var(--primary-color);
+@font-face {
+    font-family:Myfont;
+    src: url(Kestoy\ Selfie.ttf);
 }
-.Navlogo{
-margin-top: 12px;
-margin-left:100px;
+
+.navcontainer-fluid {
+    height: 100px;
+    background-color: var(--primary-color);
+}
+
+.Navlogo {
+    margin-top: 12px;
+    margin-left: 100px;
     width: 200px;
     height: 80px;
+}
+
+.welcome {
+
+    height: 6550px;
+    background-color: var(--background-color);
+}
+
+.welcomehead {
+    color: var(--warning);
+    font-family: Myfont;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: -30px;
+}
+
+.welcomeheadtwo {
+    font-size: 90px;
+    font-family: Myfont;
+    color: var(--blue-color);
+    text-align: center;
+}
+
+.welcomepara {
+    color: var(--blue-color);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.vision {
+    color: #2F80E5;
+    font-size: 70px;
+    font-family: Myfont;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Visionpara {
+    color: var(--blue-color);
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.downvisionone {
+    color: var(--blue-color);
+    font-size: 40px;
+    font-family: Myfont;
+    text-align: center;
+}
+
+.downvisiontwo {
+    color: var(--blue-color);
+    font-family: Myfont;
+    font-size: 21px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.downvisionthree {
+    color: var(--warning);
+    font-family: Myfont;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.downingredients {
+    color: var(--blue-color);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.downingredientstwo {
+    color: var(--blue-color);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -20px;
+    line-height: 1.2;
+}
+
+.biscuits {
+    margin-top: -250px;
+    width: 230px;
+    height: 300px;
+    margin-left: -30px;
+
+}
+
+.biscuitstwo {
+    margin-top: -120px;
+    width: 180px;
+    height: 130px;
+    float: right;
+
+}
+
+.wheat {
+    width: 160px;
+    height: 150px;
+    float: right;
+    margin-top: -450px;
+    margin-right: -100px;
+
+}
+
+.responsibility {
+    color: var(--blue-color);
+    font-size: 40px;
+    font-family: Myfont;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.towards {
+    color: var(--blue-color);
+    font-family: Myfont;
+    font-size: 21px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.Community {
+    color: var(--warning);
+    font-family: Myfont;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.downcommunity {
+    color: var(--blue-color);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    line-height: 1.2;
+}
+
+.responsibilitytwo {
+    color: var(--blue-color);
+    font-size: 40px;
+    font-family: Myfont;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.towardstwo {
+    color: var(--blue-color);
+    font-family: Myfont;
+    font-size: 21px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.regulation {
+    color: var(--warning);
+    font-family: Myfont;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.downregulation {
+    color: var(--blue-color);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    line-height: 1.2;
+
+}
+
+.mission {
+    color: var(--blue-colortwo);
+    font-family: Myfont;
+    font-size: 70px;
+    text-align: center;
+}
+
+.missionimg {
+    width: 650px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: 300px;
+}
+
+.missionwheat {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 150px;
+    margin-left: -40px;
+}
+
+.cup {
+    margin-top: 200px;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.missionimgtwo {
+    width: 650px;
+    height: 240px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+.missionimgthree {
+    width: 650px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 420px;
+}
+
+.mixer-head {
+    color: var(--blue-colortwo);
+    font-size: 80px;
+    font-family: Myfont;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mixer-machine {
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+.peanut-img {
+    width: 150px;
+    height: 150px;
+    margin-top: -350px;
+    margin-left: 250px;
+}
+.mixer-machinepara{
+    color:var(--blue-color);
+    font-size: 18px;
+    font-weight:lighter;
+    font-family:sans-serif;
+    text-align: center;
+    line-height:1.5;
+}
+.downmixer-machinebiscuit{
+    margin-top:-50px;
+    margin-left:-100px;
+    width:200px;
+    height:200px;
+
+}
+.shape-formation{
+    margin-top:50px;
+    margin-left:320px;
+}
+.shape-formation-para{
+    color:var(--blue-color);
+    font-size: 18px;
+    font-weight:lighter;
+    font-family:sans-serif;
+    text-align: center;
+    line-height:1.5;
+    margin-top:50px;
+}
+.oven-baking{
+    margin-top: 50px;
+    margin-left:220px;
+}
+.ovenbaking-para{
+    color:var(--blue-color);
+    font-size: 18px;
+    font-weight:lighter;
+    font-family:sans-serif;
+    text-align: center;
+    line-height:1.5;
+    margin-top: 50px;
+}
+.wrapping-image{
+    margin-top: 50px;
+    margin-left:320px;
+}
+.innovativejoyforeveryone{
+    margin-top:50px;
+width:220px;
+height:240px;
+margin-left: 600px;
+}
+.digestive{
+    width:100%;
+    height: 680px;
+    background-color:var(--Danger-Color);
+}
+.digestive-head{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.digestive-para{
+    color:var(--Default-color);
+    font-size:23px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight:500;
+}
+.digestive-image{
+display: block;
+margin-right:auto;
+margin-left:auto;
+}
+.Butter-Crunch{
+background-color:var(--Danger-colortwo);
+width:100%;
+height:800px;
+}
+.Butter-Crunch-logo{
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.Butter-Crunch-para{
+ color:var(--Default-color); 
+ font-size:23px;
+ font-family: sans-serif;
+ text-align: center;
+ font-weight:500; 
+}
+.jumbo{
+background-color: var(--info-color);
+width:100%;
+height:700px;
+}
+.jumbo-logo{
+    width:260px;
+    height:150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.jumbo-para{
+color:var(--blue-colorthree);
+font-size: 20px;
+font-family:sans-serif;
+text-align: center;
+font-weight: bold;
+margin-top:20px;
+line-height:1.8;
+}
+.jumbo-image{
+width:1400px;
+height:320px;
+display: block;
+margin-right:auto;
+margin-left: auto;
 }
