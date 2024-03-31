@@ -5,6 +5,7 @@
     --blue-colorthree:#2E3192;
     --blue-colorfour:#3553bb;
     --blue-colorfive:#2563AE;
+    --blue-colorsix:#293B87;
     --info-color:#45C0F2;
     --pink-color:#FF98B6;
     --Default-color:#FFFFFF;
@@ -458,7 +459,7 @@ text-align: center;
 .contactone-container{
 background-color: var(--blue-colorfive);
 width: 100%;
-height:500px;
+height:455px;
 }
 .contactone-head{
     color:var(--Default-color);
@@ -477,4 +478,22 @@ height:500px;
 .comment{
     margin-left:75px;
     border-radius: 5px;
+}
+.contacttwo-head{
+    background-color:var(--blue-colorsix);
+    width: 100%;
+    height:300px;
+}
+.contacttwo-btn{
+    border:4px solid var(--Default-color);
+    color:var(--Default-color);
+    background-color: var(--blue-colorfive);
+    width:220px;
+    height: 50px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight: bold;
+    margin-top:70px;
+    margin-left:80px;
+
 }
