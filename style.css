@@ -495,5 +495,49 @@ height:455px;
     font-weight: bold;
     margin-top:70px;
     margin-left:80px;
-
+}
+.contacttwo-btn:hover{
+    cursor: pointer;
+    background-color:var(--blue-colortwo);
+}
+#location{
+    color:var(--Default-color);
+  
+margin-top:-50px;
+margin-left:250px;
+  
+}
+.location-para{
+    color:var(--Default-color);
+    font-size:18px;
+    font-weight: bold;
+    float: right;
+    margin-top:80px;
+    margin-right:150px;
+}
+#phone{
+    color: var(--Default-color);
+    margin-top:15px;
+    margin-left:555px;
+}
+.phone-para{
+    color:var(--Default-color);
+    font-size:18px;
+    font-weight: bold;
+   float: right;
+   margin-top:-25px;
+   margin-right:650px;
+}
+#email{
+    color: var(--Default-color);
+    margin-top:25px;
+    margin-left:555px;
+}
+.email-para{
+    color:var(--Default-color);
+    font-size:18px;
+    font-weight: bold;
+   float: right;
+   margin-top:-25px;
+   margin-right:575px;
 }
