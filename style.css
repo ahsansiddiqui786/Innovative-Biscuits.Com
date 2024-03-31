@@ -541,3 +541,30 @@ margin-left:250px;
    margin-top:-25px;
    margin-right:575px;
 }
+.last-container{
+    color:var(--Default-color);
+    background-color:rgb(243, 232, 210);
+    width: 100%;
+    height: 250px;
+}
+.last-para{
+    color:#162C77;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left:70px;
+}
+.facebook{
+    float: right;
+    margin-top:-70px;
+    margin-right:200px;
+}
+.linkedin{
+    float: right;
+    margin-top:-70px;
+    margin-right:140px;
+}
+.instagram{
+    float: right;
+    margin-top:-70px;
+    margin-right:80px;
+}
