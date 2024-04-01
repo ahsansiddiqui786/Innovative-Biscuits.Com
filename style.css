@@ -35,7 +35,7 @@
 }
 
 .welcome {
-
+width:100%;
     height: 6550px;
     background-color: var(--background-color);
 }
@@ -327,6 +327,7 @@ height:240px;
 margin-left: 600px;
 }
 .digestive{
+    margin-top:-20px;
     width:100%;
     height: 680px;
     background-color:var(--Danger-Color);
@@ -567,4 +568,433 @@ margin-left:250px;
     float: right;
     margin-top:-70px;
     margin-right:80px;
+}
+/* Innovative Biscuits Website Start Responsive */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .navcontainer-fluid {
+        height: 100px;
+        background-color: var(--primary-color);
+    }
+
+    .Navlogo {
+        width: 140px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+
+.welcomehead {
+    font-size: 50px;
+    margin-top: -80px;
+}
+
+.welcomeheadtwo {
+    font-size: 50px;
+    margin-top: 20px;
+
+}
+
+.welcomepara {
+    font-size: 16px;
+}
+
+.vision {
+    font-size: 50px;
+}
+
+.Visionpara {
+    font-size: 16px;
+}
+
+.downvisionone {
+    font-size: 35px;
+}
+
+.downvisiontwo {
+    font-size: 20px;
+}
+
+.downvisionthree {
+    font-size: 35px;
+}
+
+.downingredients,
+.downingredientstwo {
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.biscuits {
+    width: 120px;
+    height: 120px;
+}
+
+.biscuitstwo {
+    display: none;
+}
+
+.responsibility {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.towards {
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.Community {
+    font-size: 35px;
+
+}
+
+.downcommunity {
+    font-size: 16px;
+    line-height: 1.1;
+
+}
+
+.responsibilitytwo {
+    font-size: 35px;
+}
+
+.towardstwo {
+    font-size: 16px;
+}
+
+.regulation {
+    font-size: 35px;
+}
+
+.downregulation {
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.missionimg {
+    width: 250px;
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.missionwheat {
+    width: 70px;
+    height: 70px;
+}
+
+.cup {
+    width: 130px;
+    height: 130px;
+    margin-right: -60px;
+
+}
+
+.missionimgtwo {
+    width: 250px;
+    height: 100px;
+    margin-top: -300px;
+    margin-right: 20px;
+}
+
+.missionimgthree {
+    display: none;
+}
+
+.mixer-head {
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.mixer-machine {
+    margin-left: 100px;
+    width: 250px;
+    height: 300px;
+}
+
+.mixer-machinepara {
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.shape-formation {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 300px;
+    height: 400px;
+
+}
+
+.shape-formation-para {
+
+    font-size: 14px;
+    font-weight: bold;
+
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+.oven-baking {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 320px;
+    height: 300px;
+}
+
+.ovenbaking-para {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.3;
+
+}
+
+.wrapping-image {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.innovativejoyforeveryone {
+    margin-top: 50px;
+    width: 180px;
+    height: 180px;
+    margin-left: 70px;
+}
+
+.digestive {
+    width: 320px;
+    height: 420px;
+    margin-top: -2200px;
+}
+
+.digestive-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 150px;
+}
+
+.digestive-para {
+    font-size: 16px;
+}
+
+.Butter-Crunch {
+    width: 100%;
+    height: 475px;
+}
+
+.Butter-Crunch-para {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Butter-Crunch-image {
+    width: 300px;
+    height: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbo {
+
+    width: 100%;
+    height: 500px;
+}
+
+.jumbo-logo {
+    width: 230px;
+    height: 120px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbo-para {
+
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.jumbo-image {
+    width: 300px;
+    height: 90px;
+}
+
+.Olys-container {
+    background-color: var(--blue-colorfour);
+    height: 400px;
+}
+
+.olys-image {
+    width: 300px;
+    height: 270px;
+}
+
+.olys-logo {
+    display: none;
+}
+
+.olyspara {
+    display: none;
+}
+
+.crust-container {
+    width: 100%;
+    height: 560px;
+}
+
+.crust-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.crustpara {
+    color: var(--blue-colorthree);
+    font-size: 20px;
+}
+
+.crust-image {
+    width: 300px;
+    height: 120px;
+}
+
+.toogud-container {
+    width: 100%;
+    height: 500px;
+}
+
+.toogud-logo {
+    width: 120px;
+    height: 80px;
+}
+
+.toogudpara {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.toogud-image {
+    width: 300px;
+    height: 130px;
+}
+
+.contactone-container {
+    background-color: var(--blue-colorfive);
+    width: 100%;
+    height: 400px;
+}
+
+.contactone-head {
+    font-size: 50px;
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+.Data {
+    width: 280px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.comment {
+    border: none;
+    margin-left: 30px;
+    border-radius: 6px;
+}
+
+.contacttwo-head {
+    width: 100%;
+    height: 200px;
+}
+
+.contacttwo-btn {
+    width: 200px;
+    height: 45px;
+    margin-top: -8px;
+    margin-left: 30px;
+}
+
+#location {
+    display: none;
+}
+
+.location-para {
+    display: none;
+}
+
+#phone {
+    color: var(--Default-color);
+    margin-top: 50px;
+    margin-right:0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.phone-para {
+    margin-top: -30px;
+    margin-right: 90px;
+
+}
+
+#email {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.email-para {
+    color: var(--Default-color);
+    font-size: 18px;
+    font-weight: normal;
+    float: right;
+    margin-top: -45px;
+    margin-right: 25px;
+}
+
+.last-container {
+    color: var(--Default-color);
+    background-color: rgb(243, 232, 210);
+    width: 100%;
+    height:300px;
+}
+
+.last-para {
+    color: #162C77;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-top:-30px;
+}
+
+.facebook {
+    float: right;
+    margin-top:0px;
+    margin-right: 200px;
+}
+
+.linkedin {
+    float: right;
+    margin-top:-40px;
+    margin-right: 140px;
+}
+
+.instagram {
+    float: right;
+    margin-top:-40px;
+    margin-right: 80px;
+}
 }
