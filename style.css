@@ -1,3 +1,8 @@
+body{
+    min-height:100vh;
+    width:100vw;
+    overflow-x:hidden;
+}
 :root {
     --primary-color: #396191;
     --blue-color: #293F8C;
@@ -22,7 +27,8 @@
     src: url(Kestoy\ Selfie.ttf);
 }
 
-.navcontainer-fluid {
+.navcontainer-fluid{
+  
     height: 100px;
     background-color: var(--primary-color);
 }
@@ -35,7 +41,7 @@
 }
 
 .welcome {
-width:100%;
+width:99%;
     height: 6550px;
     background-color: var(--background-color);
 }
